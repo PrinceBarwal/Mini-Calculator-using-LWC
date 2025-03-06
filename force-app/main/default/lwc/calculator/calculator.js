@@ -36,6 +36,9 @@ export default class Calculator extends LightningElement {
             this.result = parseInt(this.numberOne) / parseInt(this.numberTwo);
         }
         
+
+        this.numberOne = "";
+        this.numberTwo = "";
     }
 
     // changeHandlerNumberOne(event){
